@@ -1,0 +1,49 @@
+.wrapperContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.wrapperCards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.pageButton{
+    width: 100px;
+    height: 45px;
+    border-radius: 0.8rem;
+    background-color:rgb(157, 81, 227);
+    color: aliceblue;
+    font-size:20px;
+    border: none;
+    font-family:'Comic Sans MS';
+    cursor: pointer;
+    margin:0.3rem;
+    box-shadow: 0px 0px 30px rgba(246, 244, 244, 0.7);
+}
+
+.pageButton:hover{
+    transform: scale(1.1);
+    background-color: rgb(96, 14, 174); /* Cambia el color de fondo a púrpura al pasar el cursor*/
+}
+
+.name{
+    color: aliceblue;
+    font-family:'Comic Sans MS';
+    text-shadow: 2px 4px 10px rgb(101, 28, 170);
+
+}
+
+.searchInput{
+    width: 60px; 
+    height: 45px;
+    border-radius: 0.8rem;
+    margin-right: 0.2rem;
+    border: none;
+    font-size:20px;
+}

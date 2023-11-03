@@ -1,0 +1,153 @@
+/*.cardContainer{
+    background-color: rgba(157, 81, 227, 0.8);
+    height: 450px;
+    border-radius: 0.8rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    transform: rotate(0deg);
+    transition: transform 0.4s ease-in-out;
+    color: aliceblue;
+    text-shadow: 2px 4px 10px red;
+    font-family:'Comic Sans MS';
+    box-shadow: 0px 0px 30px rgba(237, 234, 234, 0.5);
+}
+
+.cardContainer:hover {
+    transform: translateY(-20px)
+  }
+
+.header{
+    position: relative;
+}
+
+.wreapperButton{
+    position:absolute;
+    right: 0;
+    border-radius: 0.8rem; 
+}
+
+.wreapperButton:hover {
+    transform: scale(1.2); 
+}
+
+.btn {
+    border-radius: 0.5rem;
+    background-color: rgb(209, 60, 60); 
+    color: white;
+    border: none;
+    width: 30px; 
+    height: 30px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.wrapperText{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.name{
+    position: absolute;
+    border-radius: 1rem;
+    width: 200px;
+    background-color: rgba(157, 81, 227, 0.9);;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -60px;
+    color: aliceblue;
+}
+
+.anotherText{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+    border-top-right-radius: 0.8rem;
+    border-top-left-radius: 0.8rem;
+}
+*/
+
+.cardContainer{
+    background-color: rgba(157, 81, 227, 0.8);
+    height: 510px;
+    width: 350px;
+    border-radius: 0.8rem;
+    margin:40px;
+    transform: rotate(0deg);
+    transition: transform 0.4s ease-in-out;
+    color: aliceblue;
+    text-shadow: 2px 4px 10px rgb(189, 31, 31);
+    font-family:'Comic Sans MS';
+    box-shadow: 0px 0px 30px rgba(237, 234, 234, 0.5);
+}
+
+.cardContainer:hover {
+    transform: translateY(-20px)
+}
+
+.header{
+    position: relative;
+}
+
+.wreapperButton{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+}
+
+.btn {
+    border-radius: 0.8rem;
+    background-color: rgba(157, 81, 227); 
+    color: white;
+    border: none;
+    width: 40px; 
+    height: 40px;
+    font-size:x-large;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px rgba(237, 234, 234, 0.5);
+}
+
+.btn:hover {
+    transform: scale(1.2); 
+}
+
+.wrapperText{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.name{
+    position: absolute;
+    border-radius: 1rem;
+    width: 200px;
+    background-color: rgba(157, 81, 227, 0.9);
+    padding: 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    top: -70px;
+    color: aliceblue;
+}
+
+.anotherText{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen{
+    width: 100%;
+    border-top-right-radius: 0.8rem;
+    border-top-left-radius: 0.8rem;
+}

@@ -1,0 +1,78 @@
+/*.container{
+    background-color: rgba(157, 81, 227, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: cover;
+    width: 20%;
+    height: 20rem;
+    text-align: center;
+    font-family:'Comic Sans MS';
+    border-radius: 0.8rem;
+    color: aliceblue;
+    
+}
+
+.btn{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family:'Comic Sans MS';
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.item{
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+}*/
+.container {
+    display: flex;
+    justify-content: center; /* Centrar en el eje x */
+    align-items: center; /* Centrar en el eje y */
+    height: 100vh; /* Esto asegura que el contenedor ocupe toda la altura de la ventana */
+}
+
+.formContainer{
+    background-color: rgba(157, 81, 227, 0.8);
+    width: 20%;
+    padding-top: 200px; /* Agrega espacio interno para que el contenido no esté pegado a los bordes */
+    padding-bottom: 0%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px; /* Agrega esquinas redondeadas a la "tarjeta" */
+    text-align: center;
+    font-size: 25px;
+    font-family:'Comic Sans MS';
+    box-shadow: 0px 0px 30px rgba(237, 234, 234, 0.5)
+}
+
+.inputForm {
+    width: 60%;
+    padding: 10px; /* Añade espacio interno para que el texto no esté pegado a los bordes */
+    margin:5px;
+    border: 2.5px solid #23063e; /* Establece un borde sólido de 2px de ancho en color lila (#9D51E3) */
+    border-radius: 10px; /* Agrega esquinas redondeadas */
+    font-size: 20px; /* Tamaño de fuente */
+    font-family:'Comic Sans MS';
+    text-align: center;
+    box-shadow: 0px 0px 30px rgba(237, 234, 234, 0.5)
+}
+
+.buttonEnviar {
+    background-color: #f4f1f7; /* Color de fondo lila */
+    padding: 15px 30px; /* Añade relleno al botón para hacerlo más grande */
+    margin: 8px;
+    border: none; /* Elimina el borde predeterminado */
+    border-radius: 10px; /* Agrega esquinas redondeadas */
+    font-size: 18px; /* Tamaño de fuente */
+    transition: transform 0.2s; /* Agrega una transición de 0.2 segundos para el efecto de agrandamiento */
+    cursor: pointer;
+    box-shadow: 0px 0px 30px rgba(237, 234, 234, 0.5);
+    font-family:'Comic Sans MS';
+}
+
+.buttonEnviar:hover {
+    transform: scale(1.1); /* Agranda el botón al 110% del tamaño original cuando el puntero pasa sobre él */
+}
+

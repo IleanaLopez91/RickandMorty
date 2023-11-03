@@ -1,0 +1,83 @@
+/*.container{  
+    background-color: rgba(44, 11, 111, 0.5);
+    height: 2rem;
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem;
+}
+
+.searchBar{
+    height: 2rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    margin-right: 0.2rem;
+    border: none;
+}
+
+.searchButton{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    background-color:rgb(157, 81, 227);
+    color: aliceblue;
+    font-size:large;
+    border: none;
+    font-family:'Comic Sans MS';
+    cursor: pointer;
+    margin:0.3rem;
+  
+}
+
+.searchButton:hover {
+    transform: scale(1.1);
+    background-color: rgb(96, 14, 174); /* Cambia el color de fondo a púrpura al pasar el cursor 
+}*/
+
+
+.searchBar{
+    width: 300px; 
+    height: 45px;
+    border-radius: 0.8rem;
+    margin-right: 0.2rem;
+    border: none;
+    font-size:20px;
+}
+
+.searchButton{
+    width: 100px;
+    height: 45px;
+    border-radius: 0.8rem;
+    background-color:rgb(157, 81, 227);
+    color: aliceblue;
+    font-size:20px;
+    border: none;
+    font-family:'Comic Sans MS';
+    cursor: pointer;
+    margin:0.3rem;
+    box-shadow: 0px 0px 30px rgba(237, 234, 234, 0.4);
+}
+
+.searchButton:hover{
+    transform: scale(1.1);
+    background-color: rgb(96, 14, 174); /* Cambia el color de fondo a púrpura al pasar el cursor*/
+}
+
+.logoutButton{
+    width: 100px;
+    height: 45px;
+    border-radius: 0.8rem;
+    background-color:rgb(177, 32, 53);
+    color: aliceblue;
+    font-size:20px;
+    border: none;
+    font-family:'Comic Sans MS';
+    cursor: pointer;
+    margin:0.3rem;
+    box-shadow: 0px 0px 30px rgba(237, 234, 234, 0.4);
+}
+
+.logoutButton:hover{
+    transform: scale(1.1);
+    background-color: rgb(138, 10, 27); /* Cambia el color de fondo a púrpura al pasar el cursor*/
+}
