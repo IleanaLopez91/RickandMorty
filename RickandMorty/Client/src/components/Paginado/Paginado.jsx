@@ -14,9 +14,8 @@ function RickAndMortyPage() {
 
   const fetchCharacters = async (pageNumber) => {
     try {
-      const response = await axios.get(`https://rickandmortyapi.com/api/character/?page=${pageNumber}`);
+      const response = await axios.get(`http://localhost:3001/rickandmorty/allcharacters/?page=${pageNumber}`);
       const { results, info } = response.data;
-      console.log(info)
       setCharacters(results);
       setInfo(info);
     } catch (error) {

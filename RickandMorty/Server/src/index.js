@@ -24,7 +24,16 @@ http.createServer((req, res) => {
 const server = require("./app");
 require("dotenv").config();
 const {PORT} = process.env;
+const { conn } = require('./DB_connection');
 
-server.listen(PORT, () => {
-    console.log('Server raised in port: ' + PORT);
- })
+conn
+    .sync({
+        force:true,
+    })
+    .then(() => {
+        server.listen(PORT, () => {
+            console.log('Server raised in port: ' + PORT);
+         })
+    })
+    .catch((error) => console.log(error))
+

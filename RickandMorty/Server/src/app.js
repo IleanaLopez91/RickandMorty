@@ -1,4 +1,5 @@
 const express = require("express");
+const { conn } = require('./DB_connection');
 const server = express();
 const morgan = require("morgan");
 const router = require("./routes/index")
